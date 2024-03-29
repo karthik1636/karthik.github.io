@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header, footer {
+    background-color: #333;
+    color: white;
+    padding: 1em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 1em;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    margin-bottom: 2em;
+}
+
+#contact-form > * {
+    display: block;
+    margin: 0.5em 0;
+}
+
+button {
+    cursor: pointer;
+}
